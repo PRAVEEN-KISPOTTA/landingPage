@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    /* background-color: #252525; */
+    background-color: #252525;
     color: white;
 }
 
@@ -47,10 +47,18 @@ li{
     cursor: pointer;
 }
 
+li:hover{
+  color: wheat;
+}
+
 .list-4{
     background-color: #C32222;
     padding: 10px 20px;
     border-radius: 10px;
+}
+
+.list-4:hover{
+  background-color: red;
 }
 
 .containers:nth-child(odd){
@@ -58,7 +66,7 @@ li{
 }
 
 .containers:nth-child(even){
-    background-color: #d0eaff;
+    background-color: #1B1B1B;
 }
 
 .container1, .container2, .container3, .sub-container2{
@@ -259,6 +267,10 @@ li{
     width: 800px;
     margin-bottom: 30px;
     cursor: pointer;
+  }
+
+  .box2-title:hover{
+    background-color: rgb(50, 48, 48);
   }
 
   .box2-title{
